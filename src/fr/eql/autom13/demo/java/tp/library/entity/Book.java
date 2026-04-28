@@ -1,5 +1,7 @@
 package fr.eql.autom13.demo.java.tp.library.entity;
 
+import java.util.Objects;
+
 /**
  * This is a Book
  *
@@ -11,6 +13,7 @@ public class Book {
     private long ISBN;
     private String title;
     private String author;
+    private Categorie categorie;
 
     /// Constructeur
 
@@ -18,10 +21,11 @@ public class Book {
 
     }
 
-    public Book(long ISBN, String title, String author) {
+    public Book(long ISBN, String title, String author, Categorie categorie) {
         this.ISBN = ISBN;
         this.title = title;
         this.author = author;
+        this.categorie = categorie;
     }
 
     /// Accesseurs
@@ -37,7 +41,10 @@ public class Book {
         return title;
     }
 
+    public Categorie getCategorie() { return categorie; }
+
     /// Setter
+
     public void setTitle(String title) {
         this.title = title;
     }
@@ -48,5 +55,19 @@ public class Book {
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    public void setCategorie(Categorie categorie) { this.categorie = categorie; }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Book book = (Book) o;
+        return ISBN == book.ISBN && Objects.equals(title, book.title) && Objects.equals(author, book.author) && categorie == book.categorie;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(ISBN);
     }
 }

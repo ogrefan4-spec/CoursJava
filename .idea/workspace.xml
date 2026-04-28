@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6acb612c-c8bf-46bd-8134-5868ad0a0255" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/collection/DemoHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/collection/DemoIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/keyword/AnotherChildClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/keyword/ChildClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/keyword/FinalClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/Categorie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/EBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/EFormat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/oop/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/oop/Toy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,15 +98,38 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Formation/Documents/Demo-Java/src/fr/eql/autom13/demo/java/tp/library/program",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DemoIterator">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Formation\Documents\Demo-Java\src\fr\eql\autom13\demo\java\tp\library\program" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="fr.eql.autom13.demo.java.tp.library.programms" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.tp.library.program.Application" />
+      <module name="Demo-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.eql.autom13.demo.java.tp.library.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.collection.DemoHashSet" />
       <module name="Demo-Java" />
@@ -128,19 +149,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fr.eql.autom13.demo.java.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.date.DemoTime" />
-      <module name="Demo-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.eql.autom13.demo.java.date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.DemoIterator" />
         <item itemvalue="Application.DemoHashSet" />
         <item itemvalue="Application.fr.eql.autom13.demo.java.inheritance.Demo" />
         <item itemvalue="Application.fr.eql.autom13.demo.java.generic.Demo" />
-        <item itemvalue="Application.DemoTime" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +202,7 @@
       <workItem from="1777016665345" duration="18886000" />
       <workItem from="1777042738365" duration="1620000" />
       <workItem from="1777273499842" duration="21744000" />
-      <workItem from="1777359861112" duration="9534000" />
+      <workItem from="1777359861112" duration="15832000" />
     </task>
     <servers />
   </component>
