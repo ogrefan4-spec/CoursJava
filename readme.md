@@ -28,3 +28,6 @@ Ordre des démos
     Demo
 ### inheritance
     Demo
+### collection
+    DemoHashSet
+    DemoIterator

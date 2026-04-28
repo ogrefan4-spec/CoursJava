@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6acb612c-c8bf-46bd-8134-5868ad0a0255" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/CatBreed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/PetActivities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/collection/DemoHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/collection/DemoIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/keyword/AnotherChildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/keyword/ChildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/keyword/FinalClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/oop/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/oop/Toy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "assignee": "ogrefan4-spec",
+      "author": "ogrefan4-spec"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ogrefan4-spec",
+    "author": "ogrefan4-spec"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ogrefan4-spec/CoursJava.git",
+    "accountId": "7b74f7b0-f5c8-443c-b6b0-38ef72620a55"
+  }
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -55,7 +75,9 @@
     "Application.DemoDate.executor": "Run",
     "Application.DemoDialog.executor": "Run",
     "Application.DemoForEach.executor": "Run",
+    "Application.DemoHashSet.executor": "Run",
     "Application.DemoIfElse.executor": "Run",
+    "Application.DemoIterator.executor": "Run",
     "Application.DemoStatic.executor": "Run",
     "Application.DemoSwitch.executor": "Run",
     "Application.DemoTime.executor": "Run",
@@ -86,13 +108,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.fr.eql.autom13.demo.java.inheritance.Demo">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.tp.library.program.Application" />
+  <component name="RunManager" selected="Application.DemoIterator">
+    <configuration name="DemoHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.collection.DemoHashSet" />
       <module name="Demo-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.eql.autom13.demo.java.tp.library.program.*" />
+          <option name="PATTERN" value="fr.eql.autom13.demo.java.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.date.DemoDate" />
+    <configuration name="DemoIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.collection.DemoIterator" />
       <module name="Demo-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.eql.autom13.demo.java.date.*" />
+          <option name="PATTERN" value="fr.eql.autom13.demo.java.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoIterator" />
+        <item itemvalue="Application.DemoHashSet" />
         <item itemvalue="Application.fr.eql.autom13.demo.java.inheritance.Demo" />
         <item itemvalue="Application.fr.eql.autom13.demo.java.generic.Demo" />
         <item itemvalue="Application.DemoTime" />
-        <item itemvalue="Application.DemoDate" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +194,7 @@
       <workItem from="1777016665345" duration="18886000" />
       <workItem from="1777042738365" duration="1620000" />
       <workItem from="1777273499842" duration="21744000" />
-      <workItem from="1777359861112" duration="5183000" />
+      <workItem from="1777359861112" duration="9534000" />
     </task>
     <servers />
   </component>
