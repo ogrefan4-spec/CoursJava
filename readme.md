@@ -31,3 +31,4 @@ Ordre des démos
 ### collection
     DemoHashSet
     DemoIterator
+    DemoHashMap

@@ -59,7 +59,7 @@ public class Library {
                 saveBooks();
                 break;
             case DISPLAY_BOOKS:
-                displayBooks(books2);
+                displayBooks();
                 break;
             case EXIT:
                 System.exit(0);
@@ -128,14 +128,22 @@ public class Library {
 
     }
 
-    private void displayBooks(Set<Book> list) {
-        for (Book book : list) {
-            if (book.getClass() == EBook.class) {
-                JOptionPane.showMessageDialog(null, "L'ISBN du livre ajouter est " + book.getISBN() + "\r\nLe titre du livre ajouter est " + book.getTitle() + " L'auteur du livre ajouter est " + book.getAuthor() + "La catégorie du livre est : " +book.getCategorie() + "Le Format Numérique du livre est : " +((EBook) book).getEformat().getLabel());
+    private void displayBooks() {
+        String message = "*** Les livres de la bibliothèque ***\r\n\r\n";
+        int index = 0;
+        for (Book book : books2) {
+            index++;
+            message += "Livre n°" + (index) +
+                    "\r\n\r\nISBN : " + book.getISBN() +
+                    "\r\nTitre : " + book.getTitle() +
+                    "\r\nAuteur : " + book.getAuthor() +
+                    "\r\nCatégorie : " + book.getCategorie().getLabel();
+            if (book instanceof EBook) {
+                EBook eBook = (EBook) book;
+                message += "\r\nFormat électronique : " + eBook.getEformat();
             }
-            if (book.getClass() == Book.class) {
-                JOptionPane.showMessageDialog(null, "L'ISBN du livre ajouter est " + book.getISBN() + "\r\nLe titre du livre ajouter est " + book.getTitle() + " L'auteur du livre ajouter est " + book.getAuthor() + "La catégorie du livre est : " +book.getCategorie().getLabel());
-            }
+            message += "\r\n\r\n***\r\n\r\n";
         }
+        JOptionPane.showMessageDialog(null, message);
     }
 }
