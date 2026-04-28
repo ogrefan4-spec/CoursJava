@@ -5,8 +5,8 @@ import java.util.Objects;
 public class EBook extends Book{
     private EFormat eformat;
 
-    public EBook(int isbni, String titre, String author, Categorie categorie, EFormat eformat) {
-        super(isbni, titre, author, categorie);
+    public EBook(int isbni, String titre, String author, EFormat eformat) {
+        super(isbni, titre, author);
         this.eformat = eformat;
     }
 

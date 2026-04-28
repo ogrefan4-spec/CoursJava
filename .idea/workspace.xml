@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6acb612c-c8bf-46bd-8134-5868ad0a0255" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/collection/DemoHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/collection/DemoHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/collection/DemoHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/EBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/EBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
       <recent name="fr.eql.autom13.demo.java.tp.library.programms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoHashMap">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.tp.library.program.Application" />
       <module name="Demo-Java" />
@@ -184,8 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoHashMap" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.DemoHashMap" />
         <item itemvalue="Application.DemoIterator" />
         <item itemvalue="Application.DemoHashSet" />
         <item itemvalue="Application.fr.eql.autom13.demo.java.inheritance.Demo" />
@@ -202,7 +203,7 @@
       <workItem from="1777016665345" duration="18886000" />
       <workItem from="1777042738365" duration="1620000" />
       <workItem from="1777273499842" duration="21744000" />
-      <workItem from="1777359861112" duration="17907000" />
+      <workItem from="1777359861112" duration="21886000" />
     </task>
     <servers />
   </component>

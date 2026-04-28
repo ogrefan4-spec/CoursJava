@@ -1,15 +1,16 @@
 package fr.eql.autom13.demo.java.tp.library.program;
 
+import fr.eql.autom13.demo.java.inheritance.Pet;
+import fr.eql.autom13.demo.java.oop.Toy;
 import fr.eql.autom13.demo.java.tp.library.entity.Book;
 import fr.eql.autom13.demo.java.tp.library.entity.Categorie;
 import fr.eql.autom13.demo.java.tp.library.entity.EBook;
 import fr.eql.autom13.demo.java.tp.library.entity.EFormat;
 
 import javax.swing.JOptionPane;
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -19,9 +20,11 @@ import java.util.Set;
  */
 public class Library {
     /// Attributs
-    private final Set<Book> books2 = new HashSet<>();
+    private final HashMap<Categorie, Set<Book>> booksByCategorie = new HashMap<>();
+    private final HashSet<Book> books = new HashSet<>();
     private final static int SAVE_BOOKS = 1;
     private final static int DISPLAY_BOOKS = 2;
+    private final static int DISPLAY_BOOKS_BY_CATEGORIE = 4;
     private final static int EXIT = 3;
 
 
@@ -43,14 +46,16 @@ public class Library {
                 wannaContinue = JOptionPane.showConfirmDialog(null, "Souhaitez-vous effectuer un autre traitement ?", "Warning", dialogButton);
             }
         }
-        JOptionPane.showMessageDialog(null, "La bibliothèque dispose de : " + books2.size() + " livre(s)");
+        JOptionPane.showMessageDialog(null, "La bibliothèque dispose de : " + booksByCategorie.size() + " livre(s)");
         JOptionPane.showMessageDialog(null, "A Bientôt dans la Bibliothèque");
 
     }
 
     private int showInputDialogue() {
         int result;
-        return result = Integer.parseInt(JOptionPane.showInputDialog("Voulez- vous : \r\n1: Ajouter des livres \r\nou\r\n 2: Afficher les livres\r\nou\r\n3 : Sortir"));
+        return result = Integer.parseInt(JOptionPane.showInputDialog("Voulez- vous : \r\n1: Ajouter des livres \r\nou\r\n 2: Afficher les livres\r\nou\r\n3 : Sortir\n" +
+                "ou\n" +
+                "4 : Afficher par catégorie"));
     }
 
     private void processInput(int result) {
@@ -60,6 +65,9 @@ public class Library {
                 break;
             case DISPLAY_BOOKS:
                 displayBooks();
+                break;
+            case DISPLAY_BOOKS_BY_CATEGORIE:
+                displayBooksByCategorie();
                 break;
             case EXIT:
                 System.exit(0);
@@ -92,8 +100,10 @@ public class Library {
                     categorie = Categorie.values()[option];
 
                 }
-                Book newB = new Book(isbni, titlei, authori, categorie);
-                books2.add(newB);
+                Book newB = new Book(isbni, titlei, authori);
+                books.add(newB);
+                booksByCategorie.put(categorie, books);
+
             }
         }
         if (typeDeBook == 2) {
@@ -121,29 +131,71 @@ public class Library {
                     eFormat = EFormat.values()[option2];
 
                 }
-                EBook newB = new EBook(isbni, titlei, authori, categorie, eFormat);
-                books2.add(newB);
+                Book newB = new EBook(isbni, titlei, authori, eFormat);
+                books.add(newB);
+                booksByCategorie.put(categorie, books);
+
             }
         }
 
+    }
+
+    private void displayBooksByCategorie(){
+        int option = JOptionPane.showOptionDialog(null, "Quelle est la catégorie de livre que vous souhaitez afficher ?", "Message",
+                JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, null,
+                Categorie.values(), Categorie.values()[0]);
+        Categorie categorie = null;
+        if (option == JOptionPane.CLOSED_OPTION) {
+            // user closed the JOptionPane without selecting
+        } else {
+            categorie = Categorie.values()[option];
+
+        }
+        String message = "*** Les livres de la bibliothèque ***\r\n\r\n";
+        int index = 0;
+        Set<Map.Entry<Categorie, Set<Book>>> entries = booksByCategorie.entrySet();
+        for (Map.Entry<Categorie, Set<Book>> entry : entries) {
+            for (Book book : entry.getValue()) {
+                JOptionPane.showMessageDialog(null, "Les Livres de la catégorie : " +entry.getKey().getLabel());
+                index++;
+                if (entry.getKey().equals(categorie)) {
+                message += "Livre n°" + (index) +
+                        "\r\n\r\nISBN : " + book.getISBN() +
+                        "\r\nTitre : " + book.getTitle() +
+                        "\r\nAuteur : " + book.getAuthor() +
+                        "\r\nCatégorie : " + entry.getKey().getLabel();
+                if (book instanceof EBook) {
+                    EBook eBook = (EBook) book;
+                    message += "\r\nFormat électronique : " + eBook.getEformat();
+                }
+                message += "\r\n\r\n***\r\n\r\n";
+            }  else  {
+                    JOptionPane.showMessageDialog(null, "Il n'y a aucun livre de cette catégorie");
+                }
+            JOptionPane.showMessageDialog(null, message);
+        }
+    }
     }
 
     private void displayBooks() {
         String message = "*** Les livres de la bibliothèque ***\r\n\r\n";
         int index = 0;
-        for (Book book : books2) {
-            index++;
-            message += "Livre n°" + (index) +
-                    "\r\n\r\nISBN : " + book.getISBN() +
-                    "\r\nTitre : " + book.getTitle() +
-                    "\r\nAuteur : " + book.getAuthor() +
-                    "\r\nCatégorie : " + book.getCategorie().getLabel();
-            if (book instanceof EBook) {
-                EBook eBook = (EBook) book;
-                message += "\r\nFormat électronique : " + eBook.getEformat();
+        Set<Map.Entry<Categorie, Set<Book>>> entries = booksByCategorie.entrySet();
+        for (Map.Entry<Categorie, Set<Book>> entry : entries) {
+            for (Book book : entry.getValue()) {
+                index++;
+                message += "Livre n°" + (index) +
+                        "\r\n\r\nISBN : " + book.getISBN() +
+                        "\r\nTitre : " + book.getTitle() +
+                        "\r\nAuteur : " + book.getAuthor() +
+                        "\r\nCatégorie : " + entry.getKey().getLabel();
+                if (book instanceof EBook) {
+                    EBook eBook = (EBook) book;
+                    message += "\r\nFormat électronique : " + eBook.getEformat();
+                }
+                message += "\r\n\r\n***\r\n\r\n";
             }
-            message += "\r\n\r\n***\r\n\r\n";
+            JOptionPane.showMessageDialog(null, message);
+            }
         }
-        JOptionPane.showMessageDialog(null, message);
-    }
 }

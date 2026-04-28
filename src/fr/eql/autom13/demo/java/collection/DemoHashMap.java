@@ -11,6 +11,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 public class DemoHashMap {
@@ -72,6 +73,38 @@ public class DemoHashMap {
         toysByPet.put(spike, spikeToys);
 
         toysByPet.get(spike).add(new Toy("Boite"));
+        toysByPet.get(spike).add(new Toy("Saucisse"));
+
+        System.out.println("\r\n*** Parcours de la Map ***");
+
+        System.out.println("\r\n--- KeySet() ---");
+        Set<Pet> pets = toysByPet.keySet();
+        for (Pet pet : pets) {
+            System.out.println(pet.getName());
+        }
+
+        System.out.println("\r\n--- get() ---");
+        Set<Toy> toys = toysByPet.get(spike);
+        System.out.println("Les Jouets de Spike : ");
+        for (Toy toy : toys) {
+            System.out.println("\t" + toy.getName());
+        }
+
+        toys = toysByPet.get(felix);
+        System.out.println("Les Jouets de Felix : ");
+        for (Toy toy : toys) {
+            System.out.println("\t" + toy.getName());
+        }
+
+        System.out.println("\r\n--- entrySet() ---");
+        // entrySet() renvoie un Set qui encapsule chaque couple clé/valeur de la Map
+        Set<Entry<Pet, Set<Toy>>> entries = toysByPet.entrySet();
+        for (Entry<Pet, Set<Toy>> entry : entries) {
+            System.out.println("Les jouets de " + entry.getKey().getName() + " : ");
+            for (Toy toy : entry.getValue()) {
+                System.out.println("\t" + toy.getName());
+            }
+        }
 
     }
 }
