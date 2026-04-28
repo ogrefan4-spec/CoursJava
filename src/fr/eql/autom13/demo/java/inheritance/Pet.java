@@ -2,10 +2,10 @@ package fr.eql.autom13.demo.java.inheritance;
 
 public abstract class Pet {
 
-    private String name;
-    private  int age;
-    private float size;
-    private float weight;
+    protected String name;
+    protected  int age;
+    protected float size;
+    protected float weight;
 
 
     public String getName() {
@@ -32,4 +32,8 @@ public abstract class Pet {
     }
 
     public abstract void fetchBall(int times);
+
+    public float sizeWeightRation(){
+        return size / weight;
+    }
 }
