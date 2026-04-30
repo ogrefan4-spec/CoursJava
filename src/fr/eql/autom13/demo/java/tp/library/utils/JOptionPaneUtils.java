@@ -28,7 +28,7 @@ public class JOptionPaneUtils {
             if (userInput != null) {
                 try {
                     result = Integer.parseInt(userInput);
-                    if (result >= lowerlimit && result <= upperlimit){
+                    if (result >= lowerlimit && result <= upperlimit) {
                         check = true;
                     } else {
                         JOptionPane.showMessageDialog(null, "Votre saisie ne correspond pas aux limites : " + lowerlimit + " et " + upperlimit);
@@ -38,21 +38,13 @@ public class JOptionPaneUtils {
                             , "Le format du nombre donné n'est pas correcte, veillez en indiquer un nouveau");
                 }
 
-            } else if (userInput.subSequence(0, userInput.length()).isEmpty()) {
-                try {
-                    result = Integer.parseInt(userInput);
-                    check = true;
-                } catch (NumberFormatException e) {
-                    JOptionPane.showMessageDialog(null
-                            , "Le format du nombre donné n'est pas correcte, veillez en indiquer un nouveau");
-                }
-            } else {
+            }  else {
                 JOptionPane.showMessageDialog(null
                         , "Vous ne pouvez pas laissez ce champs vide");
             }
 
-            return result;
         } while (!check);
+        return result;
 
     }
 

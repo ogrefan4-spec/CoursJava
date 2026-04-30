@@ -2,7 +2,7 @@ package fr.eql.autom13.demo.java.inheritance;
 
 import java.util.List;
 
-public class PetActivities {
+public class PetActivities<T> {
 
     public void parade(List<Pet> pets) {
         System.out.println("\r\n\t*** Voici la parade des animaux de compagnie ***");
@@ -20,5 +20,10 @@ public class PetActivities {
         }
         System.out.println("\r\n\t*** Fin de la parade ***");
 
+    }
+
+    public <T extends IntelligentAnimal & StandingAnimal> void turnOffTC(T animal) {
+        animal.standUp();
+        animal.useTool("Télécommande");
     }
 }

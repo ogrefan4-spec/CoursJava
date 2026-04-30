@@ -2,26 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6acb612c-c8bf-46bd-8134-5868ad0a0255" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/exception/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/exception/ClassWrittingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/exception/DemoCheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/exception/DemoUncheckedExecption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/exception/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/io/DemoFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/io/DemoInputOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/io/DemoRandomAcessFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/io/DemoReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/io/DemoWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/logger/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/utils/JOptionPaneUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/utils/JOptionPaneUtils2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/IntelligentAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Monkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/StandingAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/Rule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/UnrelatedRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/LibraryException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo-Java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/PetActivities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/PetActivities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/EFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/EFormat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/utils/JOptionPaneUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/utils/JOptionPaneUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/log4j2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
         <option value="package-info" />
         <option value="Enum" />
         <option value="Exception" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,27 +43,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "OPEN",
-      "assignee": "ogrefan4-spec",
-      "author": "ogrefan4-spec"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;ogrefan4-spec&quot;,
+      &quot;author&quot;: &quot;ogrefan4-spec&quot;
     },
     {
-      "state": "OPEN"
+      &quot;state&quot;: &quot;OPEN&quot;
     }
   ],
-  "lastFilter": {
-    "state": "OPEN"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/ogrefan4-spec/CoursJava.git&quot;,
     &quot;accountId&quot;: &quot;7b74f7b0-f5c8-443c-b6b0-38ef72620a55&quot;
   }
 }</component>
+  <component name="JvmLoggingSettingsStorage">
+    <option name="loggerId" value="Log4j2" />
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -113,6 +118,7 @@
     "Application.fr.eql.autom13.demo.java.copy.Demo.executor": "Run",
     "Application.fr.eql.autom13.demo.java.generic.Demo.executor": "Run",
     "Application.fr.eql.autom13.demo.java.inheritance.Demo.executor": "Run",
+    "Application.fr.eql.autom13.demo.java.lambda.Demo.executor": "Run",
     "Application.fr.eql.autom13.demo.java.string.Demo.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -137,6 +143,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Formation\Documents\Demo-Java\src\fr\eql\autom13\demo\java\tp\library\program" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Formation\Documents\Demo-Java\src\fr\eql\autom13\demo\java" />
+      <recent name="C:\Users\Formation\Documents\Demo-Java" />
+    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="fr.eql.autom13.demo.java.tp.library.programms" />
     </key>
@@ -148,45 +158,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fr.eql.autom13.demo.java.tp.library.program.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoCheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.exception.DemoCheckedException" />
-      <module name="Demo-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.eql.autom13.demo.java.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoInputOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.io.DemoInputOutputStream" />
-      <module name="Demo-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.eql.autom13.demo.java.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoRandomAcessFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.io.DemoRandomAcessFile" />
-      <module name="Demo-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.eql.autom13.demo.java.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,13 +178,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.io.DemoWriter" />
+      <module name="Demo-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.eql.autom13.demo.java.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fr.eql.autom13.demo.java.inheritance.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.inheritance.Demo" />
+      <module name="Demo-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.eql.autom13.demo.java.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fr.eql.autom13.demo.java.lambda.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.lambda.Demo" />
+      <module name="Demo-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.eql.autom13.demo.java.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.DemoRandomAcessFile" />
-        <item itemvalue="Application.DemoInputOutputStream" />
-        <item itemvalue="Application.DemoCheckedException" />
+        <item itemvalue="Application.fr.eql.autom13.demo.java.lambda.Demo" />
+        <item itemvalue="Application.fr.eql.autom13.demo.java.inheritance.Demo" />
         <item itemvalue="Application.DemoReader" />
+        <item itemvalue="Application.DemoWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +239,7 @@
       <workItem from="1777273499842" duration="21744000" />
       <workItem from="1777359861112" duration="21922000" />
       <workItem from="1777446022346" duration="22166000" />
+      <workItem from="1777532418613" duration="24060000" />
     </task>
     <servers />
   </component>

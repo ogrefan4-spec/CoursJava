@@ -1,8 +1,8 @@
 package fr.eql.autom13.demo.java.tp.library.entity;
 
 public enum EFormat {
-    EPUB("Epub"),
-    MOBI("Mobi"),
+    EPUB("EPUB"),
+    MOBI("MOBI"),
     PPT("PPT");
 
     private final String label;

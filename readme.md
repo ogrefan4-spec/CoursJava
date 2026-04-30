@@ -43,3 +43,5 @@ Ordre des démos
     DemoReader
     DemoInputOutputStream
     DemoRandomAcessFile
+### lambda
+    Demo

@@ -45,10 +45,13 @@ public class Demo {
 
         Duck daffy = new Duck("Daffy", 50, 10, 5);
 
+        Monkey DonkeyKong = new Monkey("DonkeyKong", 12, 100, 200);
+
         List<Pet> pets = new ArrayList<>();
         pets.add(nor);
         pets.add(spike);
         pets.add(daffy);
+        pets.add(DonkeyKong);
 
         for (Pet pet : pets) {
             if (pet instanceof Dog){
@@ -62,7 +65,8 @@ public class Demo {
             }
         }
 
-        PetActivities activities = new PetActivities();
+        PetActivities<Pet> activities = new PetActivities<>();
         activities.parade(pets);
+        activities.turnOffTC(DonkeyKong);
     }
 }
