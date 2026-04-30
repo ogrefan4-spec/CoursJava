@@ -6,6 +6,7 @@ import fr.eql.autom13.demo.java.tp.library.entity.Book;
 import fr.eql.autom13.demo.java.tp.library.entity.Categorie;
 import fr.eql.autom13.demo.java.tp.library.entity.EBook;
 import fr.eql.autom13.demo.java.tp.library.entity.EFormat;
+import fr.eql.autom13.demo.java.tp.library.utils.JOptionPaneUtils;
 
 import javax.swing.JOptionPane;
 import java.util.HashMap;
@@ -24,8 +25,8 @@ public class Library {
     private final HashSet<Book> books = new HashSet<>();
     private final static int SAVE_BOOKS = 1;
     private final static int DISPLAY_BOOKS = 2;
-    private final static int DISPLAY_BOOKS_BY_CATEGORIE = 4;
-    private final static int EXIT = 3;
+    private final static int DISPLAY_BOOKS_BY_CATEGORIE = 3;
+    private final static int EXIT = 4;
 
 
     /// Constructeurs
@@ -52,10 +53,9 @@ public class Library {
     }
 
     private int showInputDialogue() {
-        int result;
-        return result = Integer.parseInt(JOptionPane.showInputDialog("Voulez- vous : \r\n1: Ajouter des livres \r\nou\r\n 2: Afficher les livres\r\nou\r\n3 : Sortir\n" +
+        return JOptionPaneUtils.chooseNumber(JOptionPane.showInputDialog("Voulez- vous : \r\n1: Ajouter des livres \r\nou\r\n 2: Afficher les livres\r\nou\r\n3 : Afficher par catégorie\n" +
                 "ou\n" +
-                "4 : Afficher par catégorie"));
+                "4 : Sortir"), 1, 4);
     }
 
     private void processInput(int result) {
@@ -73,8 +73,8 @@ public class Library {
                 System.exit(0);
                 break;
             default:
-                boolean end = Boolean.parseBoolean(JOptionPane.showInputDialog("Voulez vous continuer?"));
-                if (!end) {
+                int end = JOptionPane.showConfirmDialog(null, "Souhaitez-vous effectuer un autre traitement ?");
+                if (end == JOptionPane.YES_OPTION) {
                     enter();
                 }
                 System.exit(0);
@@ -83,11 +83,11 @@ public class Library {
     }
 
     private void saveBooks() {
-        int typeDeBook = Integer.parseInt(JOptionPane.showInputDialog("Quel type de livre voulez vous ajouter  ? : \r\n\t1 : Livre Classique \tou\t2 : Format Ebook"));
-        int nbLivres = Integer.parseInt(JOptionPane.showInputDialog("Combien de livre voulez vous ajouter  ?"));
+        int typeDeBook = JOptionPaneUtils.chooseNumber(JOptionPane.showInputDialog("Quel type de livre voulez vous ajouter  ? : \r\n1 : Livre Classique \tou\t \r\n2 : Format Ebook"), 1, 2);
+        int nbLivres = JOptionPaneUtils.chooseNumber(JOptionPane.showInputDialog("Combien de livre voulez vous ajouter  ?"), 1, 20);
         if (typeDeBook == 1) {
             for (int i = 0; i < nbLivres; i++) {
-                int isbni = Integer.parseInt(JOptionPane.showInputDialog("Donner l'ISBN du livre"));
+                int isbni = JOptionPaneUtils.chooseNumber(JOptionPane.showInputDialog("Donner l'ISBN du livre numérique"), 1, 8);
                 String titlei = JOptionPane.showInputDialog("Donner le titre du livre");
                 String authori = JOptionPane.showInputDialog("Donner l'auteur' du livre");
                 int option = JOptionPane.showOptionDialog(null, "Quelle est la catégorie du livre ?", "Message",
@@ -108,7 +108,7 @@ public class Library {
         }
         if (typeDeBook == 2) {
             for (int i = 0; i < nbLivres; i++) {
-                int isbni = Integer.parseInt(JOptionPane.showInputDialog("Donner l'ISBN du livre numérique"));
+                int isbni = JOptionPaneUtils.chooseNumber(JOptionPane.showInputDialog("Donner l'ISBN du livre numérique"), 1, 8);
                 String titlei = JOptionPane.showInputDialog("Donner le titre du livre numérique");
                 String authori = JOptionPane.showInputDialog("Donner l'auteur' du livre numérique");
                 int option = JOptionPane.showOptionDialog(null, "Quelle est la catégorie du livre numérique?", "Message",
@@ -139,6 +139,7 @@ public class Library {
         }
 
     }
+
 
     private void displayBooksByCategorie(){
         int option = JOptionPane.showOptionDialog(null, "Quelle est la catégorie de livre que vous souhaitez afficher ?", "Message",
@@ -196,6 +197,9 @@ public class Library {
                 message += "\r\n\r\n***\r\n\r\n";
             }
             JOptionPane.showMessageDialog(null, message);
+            }
+            if (entries.isEmpty()) {
+                JOptionPane.showMessageDialog(null, "Il n'y a pas de livre enregistrer appartenant a cette catégorie");
             }
         }
 }

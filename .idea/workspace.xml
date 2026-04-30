@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6acb612c-c8bf-46bd-8134-5868ad0a0255" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/exception/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/exception/ClassWrittingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/exception/DemoCheckedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/exception/DemoUncheckedExecption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/exception/Writer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/io/DemoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/io/DemoInputOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/io/DemoRandomAcessFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/io/DemoReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/io/DemoWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/logger/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/utils/JOptionPaneUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/utils/JOptionPaneUtils2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/collection/DemoHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/collection/DemoHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/EBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/EBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo-Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +33,7 @@
       <list>
         <option value="package-info" />
         <option value="Enum" />
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -32,20 +47,21 @@
       "state": "OPEN",
       "assignee": "ogrefan4-spec",
       "author": "ogrefan4-spec"
+    },
+    {
+      "state": "OPEN"
     }
   ],
   "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ogrefan4-spec",
-    "author": "ogrefan4-spec"
+    "state": "OPEN"
   }
 }]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ogrefan4-spec/CoursJava.git",
-    "accountId": "7b74f7b0-f5c8-443c-b6b0-38ef72620a55"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ogrefan4-spec/CoursJava.git&quot;,
+    &quot;accountId&quot;: &quot;7b74f7b0-f5c8-443c-b6b0-38ef72620a55&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -70,16 +86,23 @@
     "Application.DemoArray.executor": "Run",
     "Application.DemoArrayList.executor": "Run",
     "Application.DemoArythmetics.executor": "Run",
+    "Application.DemoCheckedException.executor": "Run",
     "Application.DemoDate.executor": "Run",
     "Application.DemoDialog.executor": "Run",
+    "Application.DemoFile.executor": "Run",
     "Application.DemoForEach.executor": "Run",
     "Application.DemoHashMap.executor": "Run",
     "Application.DemoHashSet.executor": "Run",
     "Application.DemoIfElse.executor": "Run",
+    "Application.DemoInputOutputStream.executor": "Run",
     "Application.DemoIterator.executor": "Run",
+    "Application.DemoRandomAcessFile.executor": "Run",
+    "Application.DemoReader.executor": "Run",
     "Application.DemoStatic.executor": "Run",
     "Application.DemoSwitch.executor": "Run",
     "Application.DemoTime.executor": "Run",
+    "Application.DemoUncheckedExecption.executor": "Run",
+    "Application.DemoWriter.executor": "Run",
     "Application.Loop.executor": "Run",
     "Application.TP1.executor": "Run",
     "Application.TP2.executor": "Run",
@@ -94,6 +117,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -101,9 +125,9 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Formation/Documents/Demo-Java/src/fr/eql/autom13/demo/java/tp/library/program",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
@@ -131,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.collection.DemoHashMap" />
+    <configuration name="DemoCheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.exception.DemoCheckedException" />
       <module name="Demo-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.eql.autom13.demo.java.collection.*" />
+          <option name="PATTERN" value="fr.eql.autom13.demo.java.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.collection.DemoHashSet" />
+    <configuration name="DemoInputOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.io.DemoInputOutputStream" />
       <module name="Demo-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.eql.autom13.demo.java.collection.*" />
+          <option name="PATTERN" value="fr.eql.autom13.demo.java.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.collection.DemoIterator" />
+    <configuration name="DemoRandomAcessFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.io.DemoRandomAcessFile" />
       <module name="Demo-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.eql.autom13.demo.java.collection.*" />
+          <option name="PATTERN" value="fr.eql.autom13.demo.java.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fr.eql.autom13.demo.java.inheritance.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.inheritance.Demo" />
+    <configuration name="DemoReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.io.DemoReader" />
       <module name="Demo-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.eql.autom13.demo.java.inheritance.*" />
+          <option name="PATTERN" value="fr.eql.autom13.demo.java.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,10 +210,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.DemoHashMap" />
-        <item itemvalue="Application.DemoIterator" />
-        <item itemvalue="Application.DemoHashSet" />
-        <item itemvalue="Application.fr.eql.autom13.demo.java.inheritance.Demo" />
+        <item itemvalue="Application.DemoRandomAcessFile" />
+        <item itemvalue="Application.DemoInputOutputStream" />
+        <item itemvalue="Application.DemoCheckedException" />
+        <item itemvalue="Application.DemoReader" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +227,8 @@
       <workItem from="1777016665345" duration="18886000" />
       <workItem from="1777042738365" duration="1620000" />
       <workItem from="1777273499842" duration="21744000" />
-      <workItem from="1777359861112" duration="21886000" />
+      <workItem from="1777359861112" duration="21922000" />
+      <workItem from="1777446022346" duration="22166000" />
     </task>
     <servers />
   </component>
