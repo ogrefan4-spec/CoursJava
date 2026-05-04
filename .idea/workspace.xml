@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6acb612c-c8bf-46bd-8134-5868ad0a0255" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/IntelligentAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Monkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/StandingAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/Rule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/lambda/UnrelatedRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/BookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/LibraryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/recursivity/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/PetActivities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/inheritance/PetActivities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/EFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/entity/EFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/program/Library2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/utils/JOptionPaneUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/tp/library/utils/JOptionPaneUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eql/autom13/demo/java/log4j2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,62 +65,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Application.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.DemoArray.executor": "Run",
-    "Application.DemoArrayList.executor": "Run",
-    "Application.DemoArythmetics.executor": "Run",
-    "Application.DemoCheckedException.executor": "Run",
-    "Application.DemoDate.executor": "Run",
-    "Application.DemoDialog.executor": "Run",
-    "Application.DemoFile.executor": "Run",
-    "Application.DemoForEach.executor": "Run",
-    "Application.DemoHashMap.executor": "Run",
-    "Application.DemoHashSet.executor": "Run",
-    "Application.DemoIfElse.executor": "Run",
-    "Application.DemoInputOutputStream.executor": "Run",
-    "Application.DemoIterator.executor": "Run",
-    "Application.DemoRandomAcessFile.executor": "Run",
-    "Application.DemoReader.executor": "Run",
-    "Application.DemoStatic.executor": "Run",
-    "Application.DemoSwitch.executor": "Run",
-    "Application.DemoTime.executor": "Run",
-    "Application.DemoUncheckedExecption.executor": "Run",
-    "Application.DemoWriter.executor": "Run",
-    "Application.Loop.executor": "Run",
-    "Application.TP1.executor": "Run",
-    "Application.TP2.executor": "Run",
-    "Application.TP3.executor": "Run",
-    "Application.TP4.executor": "Run",
-    "Application.TP5.executor": "Run",
-    "Application.TP9.executor": "Run",
-    "Application.fr.eql.autom13.demo.java.copy.Demo.executor": "Run",
-    "Application.fr.eql.autom13.demo.java.generic.Demo.executor": "Run",
-    "Application.fr.eql.autom13.demo.java.inheritance.Demo.executor": "Run",
-    "Application.fr.eql.autom13.demo.java.lambda.Demo.executor": "Run",
-    "Application.fr.eql.autom13.demo.java.string.Demo.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Formation/Documents/Demo-Java/src/fr/eql/autom13/demo/java/tp/library/program",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoArythmetics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoCheckedException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoDate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoDialog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoForEach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoHashMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoHashSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoIfElse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoInputOutputStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoIterator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoRandomAcessFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoReader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoStatic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoSwitch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoUncheckedExecption.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoWriter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Loop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TP1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TP2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TP3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TP4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TP5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TP9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fr.eql.autom13.demo.java.copy.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fr.eql.autom13.demo.java.generic.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fr.eql.autom13.demo.java.inheritance.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fr.eql.autom13.demo.java.lambda.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fr.eql.autom13.demo.java.string.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Formation/Documents/Demo-Java/src/fr/eql/autom13/demo/java/tp/library/program&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Formation\Documents\Demo-Java\src\fr\eql\autom13\demo\java\tp\library\program" />
@@ -151,7 +133,7 @@
       <recent name="fr.eql.autom13.demo.java.tp.library.programms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.tp.library.program.Application" />
       <module name="Demo-Java" />
@@ -165,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.io.DemoReader" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.recursivity.Demo" />
       <module name="Demo-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.eql.autom13.demo.java.io.*" />
+          <option name="PATTERN" value="fr.eql.autom13.demo.java.recursivity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.io.DemoWriter" />
+    <configuration name="DemoReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.eql.autom13.demo.java.io.DemoReader" />
       <module name="Demo-Java" />
       <extension name="coverage">
         <pattern>
@@ -219,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.fr.eql.autom13.demo.java.lambda.Demo" />
         <item itemvalue="Application.fr.eql.autom13.demo.java.inheritance.Demo" />
         <item itemvalue="Application.DemoReader" />
-        <item itemvalue="Application.DemoWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +221,8 @@
       <workItem from="1777273499842" duration="21744000" />
       <workItem from="1777359861112" duration="21922000" />
       <workItem from="1777446022346" duration="22166000" />
-      <workItem from="1777532418613" duration="24060000" />
+      <workItem from="1777532418613" duration="24150000" />
+      <workItem from="1777878352140" duration="467000" />
     </task>
     <servers />
   </component>
